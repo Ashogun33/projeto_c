@@ -10,10 +10,11 @@ int main() {
     scanf("%49s",nome);
     
     if(strcmp(nome, "Ashogun") == 0) {
-       printf("Saudações, Ashogun! é uma honra tê-lo aqui.\n");
-    } else {
-       printf("Olá, %s! Seja bem-vindo ao mundo da programação em C!\n", nome);
-    }
-
+      printf("Saudações, Ashogun! é uma honra tê-lo aqui.\n");
+  } else {
+      if(strcmp(nome, "Vandilson") == 0) 
+        printf("Olá, Vandilson! Que bom ter você por aqui.\n");
+      else printf("Olá, %s! Seja bem-vindo ao mundo da programação em C!\n", nome);
+  }
     return 0;
 }
